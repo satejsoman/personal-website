@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Franklin:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Franklin:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Fira+Code&display=swap');
 
 body {
   margin: 0;
@@ -19,6 +19,13 @@ p {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Fira Code", source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.card-title { 
+    font-family: "Libre Franklin";
+}
+
+.root { 
+    height: 100vh!important;
 }

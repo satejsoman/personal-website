@@ -1,30 +1,19 @@
-import React from 'react';
 import './App.css';
-import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import React from 'react';
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './pages/Home.js';
+import Art from './pages/Art.js';
+import Research from './pages/Research.js';
 
 function App() {
   return (
-    <Container fluid>
-    <Row>
-    <Col xs={3}>
-    <div className="App">
-      <header className="App-header">
-        <h1>satej soman</h1>
-        <p><i>πολύτροπος</i></p>
-        <div>
-        <a href="https://twitter.com/satejsoman"><code>twitter</code></a>{" "}
-        <a href="https://github.com/satejsoman"><code>github</code></a>
-        </div>
-        </header>
-    </div>
-    </Col>
-    <Col>
-    art
-    </Col>
-    </Row>
-    </Container>
+    <Router>
+        <Route exact path='/'         component={Home}></Route>
+        <Route exact path='/art'      component={Art}></Route>
+        <Route exact path='/research' component={Research}></Route>
+        <Route exact path='/cv'       component={Home}></Route>
+    </Router>
   );
 }
 
