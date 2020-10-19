@@ -19,7 +19,7 @@ function Home(_) {
             <div className="lhlinkouter">[{" "}<a href="https://github.com/satejsoman"  className="lhlink">github</a>{" "}]</div>
         </div>
         </Col>
-        <Col className = "fullheight">
+        <Col className = "landing-right fullheight">
             <p className="text-center" style={{paddingTop: "20vh"}}><i>navigation</i></p>
         <Link to="/art">
         <Card className = "landingcard">
