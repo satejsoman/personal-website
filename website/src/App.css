@@ -46,6 +46,13 @@
   }
 }
 
+.lhlinkouter { 
+    font-size: 25;
+    padding-bottom: 1vh;
+    color:#FFD13C;
+    font-family: "Fira Code";
+}
+
 .lhlink { 
     color: #e7e7e7;
 }
@@ -69,5 +76,16 @@
 .card {
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin-bottom: 5vh; /* Added */
+}
+
+.vanity { 
+    position: relative;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+
+.polytropos { 
+    font-size: 20;
+    padding-bottom: 5vh;
 }

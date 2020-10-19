@@ -5,17 +5,18 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import {Link} from 'react-router-dom';
 import {ReactComponent as Duodec} from './duodec.svg'
+import CV from "../assets/CV.pdf"
 
 function Home(_) {
     return <Container fluid className="fullheight">
         <Row className="fullheight">
         <Col className="landing-left fullheight">
         <div style={{textAlign: 'center'}}>
-            <h1 style={{"position" : "relative", paddingTop: "20vh", paddingBottom: "5vh"}}>satej soman</h1>
+            <h1 className="vanity">satej soman</h1>
             <Duodec style={{height: "35vh"}}/>
-            <p style={{fontSize: 20, paddingBottom: "5vh"}}><i>πολύτροπος</i></p>
-            <div style={{fontSize: 25, paddingBottom: "1vh", color: "#FFD13C", fontFamily:"Fira Code"}}>[{" "}<a href="https://twitter.com/satejsoman" className="lhlink">twitter</a>{" "}]</div>
-            <div style={{fontSize: 25, paddingBottom: "1vh", color: "#FFD13C", fontFamily:"Fira Code"}}>[{" "}<a href="https://github.com/satejsoman"  className="lhlink">github</a>{" "}]</div>
+            <p className="polytropos"><i>πολύτροπος</i></p>
+            <div className="lhlinkouter">[{" "}<a href="https://twitter.com/satejsoman" className="lhlink">twitter</a>{" "}]</div>
+            <div className="lhlinkouter">[{" "}<a href="https://github.com/satejsoman"  className="lhlink">github</a>{" "}]</div>
         </div>
         </Col>
         <Col className = "fullheight">
@@ -44,7 +45,7 @@ function Home(_) {
             </Card.Body>
         </Card>
         </Link>
-        <Link to="/cv">
+        <Link to = {CV} target = "_blank" rel="noopener noreferrer">
         <Card className = "landingcard">
             <Card.Body>
             <Card.Title>
