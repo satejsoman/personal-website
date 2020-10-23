@@ -4,8 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row';
 import {Link} from 'react-router-dom';
-import slums_header from "../assets/slums_header.png"
-import covid_header from "../assets/covid_header.png"
+import slums_header from "../assets/slums/small_header.png"
+import covid_header from "../assets/covid/small_header.png"
 
 const ResearchNavCard = (props) =>
 <Link to={props.to}>

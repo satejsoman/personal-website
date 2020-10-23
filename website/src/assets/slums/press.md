@@ -1,0 +1,2 @@
+- Reuters: [African slum map exposes true scale of urban poverty](https://br.reuters.com/article/us-africa-cities-maps-idUSKBN1X228L)
+- UChicago News: [In fight against global poverty, researchers map fast-growing informal settlements in Africa](https://news.uchicago.edu/story/fight-against-global-poverty-researchers-map-fast-growing-informal-settlements-africa)

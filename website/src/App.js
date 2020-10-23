@@ -8,16 +8,13 @@ import Research from './pages/Research.js';
 import Covid from './pages/Covid.js'
 import Slums from './pages/Slums.js'
 
-function App() {
-  return (
-    <Router>
+const App = (_) =>
+<Router>
     <Route exact path='/'               component={Home}/>
     <Route exact path='/art'            component={Art}/>
     <Route exact path='/research'       component={Research}/>
     <Route exact path='/research/slums' component={Slums}/>
     <Route exact path='/research/covid' component={Covid}/>
-    </Router>
-  );
-}
+</Router>
 
 export default App;

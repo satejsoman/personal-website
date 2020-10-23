@@ -42,6 +42,10 @@
     height:100vh!important
 }
 
+.fullwidth {
+    width:100vw!important
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -66,7 +70,7 @@
 }
 
 .landingcard { 
-    width: 16vw!important;
+    width: 20vw!important;
     position: center;
     text-align: right;
     color: #221F23;
@@ -97,5 +101,11 @@
 
 .research-link { 
     margin-top: 30vh;
-    width: 20vw!important;
+    width: 25vw!important;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
