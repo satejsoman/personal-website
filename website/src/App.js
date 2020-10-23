@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home.js';
 import Art from './pages/Art.js';
 import Research from './pages/Research.js';
