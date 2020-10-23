@@ -1,10 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import main from "../assets/slums/main.md"
 import pubs from "../assets/slums/pubs.md"
 import press from "../assets/slums/press.md"
 import summary from "../assets/slums/summary.md"
+import large_header from "../assets/slums/large_header.png"
+import Breadcrumb from "../Breadcrumb"
 
 class Slums extends React.Component { 
     constructor(props) { 
@@ -30,8 +32,12 @@ class Slums extends React.Component {
         return <ReactMarkdown source={this.state[key]} allowDangerousHtml/>
     }
 
-    render = () => <div className = "fullheight fullwidth landing-right"><Container fluid className = "fullheight" style={{paddingLeft: "10vw", paddingRight: "10vw", paddingTop: "15vh"}}>
+    render = () => <div className = "fullwidth landing-right" style = {{height: "100%!important"}}>
+    <Jumbotron fluid style = {{width:"100%", height:"30vh", backgroundImage: `url(${large_header})`, backgroundPosition: "center", opacity:0.6}} /> 
+    <Container fluid  style={{ paddingLeft: "10vw", paddingRight: "10vw", paddingBottom: "15vh"}}>
+    <Breadcrumb crumbs={["home", "research"]}/>
     <h1>Infrastructure Access in Slums</h1>
+    <br/>
     {this.content("summary")}
     <Row>
         <Col> <h2>Publications + Talks</h2> {this.content("pubs")} </Col>

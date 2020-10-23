@@ -43,7 +43,7 @@
 }
 
 .fullwidth {
-    width:100vw!important
+    width:100%!important
 }
 
 @keyframes App-logo-spin {

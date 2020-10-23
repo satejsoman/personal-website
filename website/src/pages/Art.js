@@ -1,4 +1,5 @@
 import React from 'react';
+import Breadcrumb from "../Breadcrumb"
 
 class Art extends React.Component{ 
     componentDidMount() { 
@@ -12,7 +13,9 @@ class Art extends React.Component{
 
     render() { 
         return <div className = "landing-left" style={{paddingTop: "10vh", width: "80vw", margin: "auto"}}>
-            <h3>most recent pieces:</h3>
+        <Breadcrumb crumbs={["home"]}/>
+        <h3>most recent pieces:</h3>
+        <br/>
          <div id="curator-feed-default-feed-layout"><a href="https://curator.io" class="crt-logo crt-tag" style={{"color": "#221F23"}}>Powered by Curator.io</a></div>
         </div>
     }
