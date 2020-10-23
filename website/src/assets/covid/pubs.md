@@ -1,1 +1,2 @@
 - [Adaptive Control of COVID-19 Outbreaks in India: Local, Gradual, and Trigger-based Exit Paths from Lockdown](https://www.nber.org/papers/w27532)
+- ADB PACER Dialogue #12: [Forecasting COVID and Vaccination Policy](https://events.development.asia/materials/20200923/forecasting-covid-and-vaccination-policy)

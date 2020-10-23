@@ -1,2 +1,3 @@
-- MarginalRevolution: [Covid-19 (Emergent Ventures) India prize](https://marginalrevolution.com/marginalrevolution/2020/06/covid-19-india-prize.html)
+- Marginal Revolution: [Covid-19 (Emergent Ventures) India prize](https://marginalrevolution.com/marginalrevolution/2020/06/covid-19-india-prize.html)
 - Business Standard: [1](https://www.business-standard.com/article/economy-policy/data-driven-models-show-top-covid-19-risk-states-aren-t-the-most-infected-120080501305_1.html), [2](https://www.business-standard.com/article/current-affairs/the-chance-to-tame-covid-19-pandemic-squandered-after-a-good-start-120082601669_1.html), [3](https://www.business-standard.com/article/current-affairs/signs-of-falling-covid-19-numbers-may-be-deceptive-warn-experts-120092800024_1.html)
+- Apolitical.co: [Tackling Covid-19 through adaptive control: lessons from India](https://apolitical.co/en/solution_article/tackling-covid-19-through-adaptive-control-lessons-from-india)
