@@ -12,7 +12,7 @@ class Art extends React.Component{
 
     render() { 
         return <div className = "landing-left" style={{paddingTop: "10vh", width: "80vw", margin: "auto"}}>
-            <h3>most recent posts</h3>
+            <h3>most recent pieces:</h3>
          <div id="curator-feed-default-feed-layout"><a href="https://curator.io" class="crt-logo crt-tag" style={{"color": "#221F23"}}>Powered by Curator.io</a></div>
         </div>
     }
