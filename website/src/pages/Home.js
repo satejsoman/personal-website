@@ -10,14 +10,17 @@ import CV from "../assets/CV.pdf"
 const SocialLink = (props) => 
     <div className="lhlinkouter">[{" "}<a href={props.to} className="lhlink">{props.name}</a>{" "}]</div>
 
-const NavCard    = (props) =>
+const InnerCard = (props) =>
+<Card className = "landingcard">
+    <Card.Body>
+    <Card.Title>/{props.title}</Card.Title>
+    <Card.Text>{props.desc}</Card.Text>
+    </Card.Body>
+</Card>
+
+const LinkedCard    = (props) =>
 <Link to={props.to} target={props.target} rel={props.rel}>
-    <Card className = "landingcard">
-        <Card.Body>
-        <Card.Title>/{props.title}</Card.Title>
-        <Card.Text>{props.desc}</Card.Text>
-        </Card.Body>
-    </Card>
+    <InnerCard title={props.title} desc={props.desc}/>
 </Link>
 
 const Home       = (_) =>
@@ -34,9 +37,9 @@ const Home       = (_) =>
     </Col>
     <Col className = "landing-right fullheight">
         <p className="text-center" style={{paddingTop: "20vh"}}><i>navigation</i></p>
-        <NavCard to="/art"      title="art"      desc="algorithmic photomanipulation, digital illustration, generative pieces"/>
-        <NavCard to="/research" title="research" desc="research briefs on current and past investigations"/>
-        <NavCard to={CV} target = "_blank" rel="noopener noreferrer" title="cv" desc = "course of life"/>
+        <LinkedCard to="/art"      title="art"      desc="algorithmic photomanipulation, digital illustration, generative pieces"/>
+        <LinkedCard to="/research" title="research" desc="research briefs on current and past investigations"/>
+        <a href={CV} target = "_self" rel="noopener noreferrer"><InnerCard title="cv" desc = "course of life"/></a>
     </Col>
     </Row>
 </Container>
