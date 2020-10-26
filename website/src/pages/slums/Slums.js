@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
-import main from "../assets/slums/main.md"
-import pubs from "../assets/slums/pubs.md"
-import press from "../assets/slums/press.md"
-import summary from "../assets/slums/summary.md"
-import large_header from "../assets/slums/large_header.png"
-import Breadcrumb from "../Breadcrumb"
+import main from "./main.md"
+import pubs from "./pubs.md"
+import press from "./press.md"
+import summary from "./summary.md"
+import large_header from "./large_header.png"
+import Breadcrumb from "../../commons/Breadcrumb"
 
 class Slums extends React.Component { 
     constructor(props) { 

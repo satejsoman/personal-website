@@ -5,8 +5,8 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home.js';
 import Art from './pages/Art.js';
 import Research from './pages/Research.js';
-import Covid from './pages/Covid.js'
-import Slums from './pages/Slums.js'
+import Covid from './pages/covid/Covid.js'
+import Slums from './pages/slums/Slums.js'
 
 const App = (_) =>
 <Router>

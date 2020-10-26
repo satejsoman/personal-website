@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
-import main from "../assets/covid/main.md"
-import pubs from "../assets/covid/pubs.md"
-import press from "../assets/covid/press.md"
-import summary from "../assets/covid/summary.md"
-import large_header from "../assets/covid/large_header.png"
-import Breadcrumb from "../Breadcrumb"
+import main from "./main.md"
+import pubs from "./pubs.md"
+import press from "./press.md"
+import summary from "./summary.md"
+import large_header from "./large_header.png"
+import Breadcrumb from "../../commons/Breadcrumb"
 
 class Covid extends React.Component { 
     constructor(props) { 
