@@ -11,16 +11,9 @@ Modeling the spaces
 
 To analyze street blocks throughout the Global South, we turned to [OpenStreetMap](https://www.openstreetmap.org), a platform for crowdsourced digital maps. 
 
-### parallelized processing of road networks and building footprints
 When we looked at the total size of the extract for 120 countries comprising the Global South, we found it was over a terabyte in size. Processing this much geospatial data on a laptop is a little unwieldy, especially when you also want to run Slack and watch Netflix while your data processes. Thankfully, we had the [UChicago Research Computing Center's Midway2 compute cluster](https://rcc.uchicago.edu/resources/high-performance-computing) available for distributed computation. To break down the data extract, we intersected the building footprint and road network geometries with administrative unit boundaries (sourced from the [Database of Global Administrative Areas](https://gadm.org/)), and analyzed the buildings and streets for each administrative unit in parallel.  
 
-### determining street block geometry
-
-### approximating cadastral delineations
-
-### creating topological graphs
-
-## MillionNeighborhoods.org: A Global Map of Infrastructure Access
+Using the street network, we pulled the geometry of the negative spaces in between each street to figure out where the 
 
 ## Optimizing road access
 Once the parts of a street block lacking access to the surrounding road network has have been identified, the natural follow-on question is: how can we connect these interior parcels to the formal roads? This process of topological optimization.

@@ -7,6 +7,7 @@ import press from "./press.md"
 import summary from "./summary.md"
 import large_header from "./large_header.png"
 import Breadcrumb from "../../commons/Breadcrumb"
+import gfm from 'remark-gfm'
 
 class Covid extends React.Component { 
     constructor(props) { 
@@ -29,7 +30,7 @@ class Covid extends React.Component {
     }
 
     content(key) { 
-        return <ReactMarkdown source={this.state[key]} allowDangerousHtml/>
+        return <ReactMarkdown source={this.state[key]} plugins={[gfm]} allowDangerousHtml/>
     }
 
     render = () => <div className = "fullwidth landing-right" style = {{height: "100%!important"}}>
