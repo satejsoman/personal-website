@@ -48,3 +48,22 @@ code {
 a { 
     color: #3477a7!important;
 }
+
+.crt-post-header, .crt-post-userimage, .crt-post-share, .crt-logo.crt-tag {
+    display: none
+}
+
+.crt-load-more-container { 
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    float: right;
+    padding-bottom: 20px;
+}
+
+.crt-post-text {
+    margin-top: 5px;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+}
