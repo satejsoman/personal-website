@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import {Link} from 'react-router-dom';
 import {ReactComponent as Duodec} from './duodec.svg'
-import CV from "../assets/CV.pdf"
 
 const SocialLink = (props) => 
     <div className="lhlinkouter">[{" "}<a href={props.to} className="lhlink">{props.name}</a>{" "}]</div>
