@@ -38,7 +38,7 @@ const Home       = (_) =>
         <p className="text-center" style={{paddingTop: "20vh"}}><i>navigation</i></p>
         <LinkedCard to="/art"      title="art"      desc="algorithmic photomanipulation, digital illustration, generative pieces"/>
         <LinkedCard to="/research" title="research" desc="research briefs on current and past investigations"/>
-        <a href="https://www.ischool.berkeley.edu/system/files/resume/cv_0.pdf" target = "_blank" rel="noopener noreferrer"><InnerCard title="cv" desc = "course of life"/></a>
+        <a href="https://www.ischool.berkeley.edu/system/files/resume/cv_1.pdf" target = "_blank" rel="noopener noreferrer"><InnerCard title="cv" desc = "course of life"/></a>
     </Col>
     </Row>
 </Container>
